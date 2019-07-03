@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>ssss</title>
+      <link href="/2019/07/04/test/"/>
+      <url>/2019/07/04/test/</url>
+      
+        <content type="html"><![CDATA[<p>测试</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> test </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Go</title>
+      <link href="/2019/07/02/hello/"/>
+      <url>/2019/07/02/hello/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Start"><a href="#Start" class="headerlink" title="Start!!!"></a>Start!!!</h2><p>一时看一时爽，一直看一直爽！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo博客 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> test </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
