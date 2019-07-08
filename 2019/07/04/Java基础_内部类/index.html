@@ -108,8 +108,6 @@
 <meta name="twitter:description" content="概念可以将一个类的定义放在另一个类的定义内部 内部类的基本形式： 123public class A &amp;#123;    class B &amp;#123;&amp;#125;&amp;#125;  性质内部类拥有对其外部类所有成员的访问权限其原理是：当外部类对象创建了一个内部类对象，此内部类会秘密的获取一个指向外部类对象的引用。之后访问外部类成员时，就可以用那个引用来访问。 123456789101112131415">
 
 
-  
-
 
   <link rel="alternate" href="/atom.xml" title="Lian の blogs" type="application/atom+xml">
 
@@ -422,6 +420,18 @@
           
             
             
+              
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <span class="post-meta-item-text">评论数：</span>
+                <a href="/2019/07/04/Java基础_内部类/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/07/04/Java基础_内部类/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -576,6 +586,10 @@
 
           </div>
           
+
+  
+    <div class="comments" id="comments">
+    </div>
 
   
 
@@ -943,6 +957,32 @@ show_date_time();
   
 
   
+  
+
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+<script>
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#comments',
+    verify: false,
+    notify: false,
+    appId: 'XLFElKvwlHCK4IQeDL4w8Bf0-gzGzoHsz',
+    appKey: 'bCNh9vRemjhYwIz5yX6y0zUb',
+    placeholder: 'Just go go',
+    avatar: 'mm',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: false,
+    lang: 'zh-cn' || 'zh-cn'
+  });
+</script>
+
+
 
 
   
