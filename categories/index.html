@@ -104,8 +104,6 @@
 <meta name="twitter:title" content="分类">
 
 
-  
-
 
   <link rel="alternate" href="/atom.xml" title="Lian の blogs" type="application/atom+xml">
 
@@ -188,7 +186,7 @@
     </div>
     
       
-        <p class="site-subtitle">滑天下之大稽</p>
+        <p class="site-subtitle">Stay hungry,Stay foolish</p>
       
     
     
@@ -749,14 +747,14 @@ show_date_time();
 
 <script>
   var GUEST = ['nick', 'mail', 'link'];
-  var guest = 'nick,mail,link';
+  var guest = 'nick,mail';
   guest = guest.split(',').filter(function(item) {
     return GUEST.indexOf(item) > -1;
   });
   new Valine({
     el: '#comments',
-    verify: false,
-    notify: false,
+    verify: true,
+    notify: true,
     appId: 'XLFElKvwlHCK4IQeDL4w8Bf0-gzGzoHsz',
     appKey: 'bCNh9vRemjhYwIz5yX6y0zUb',
     placeholder: 'Just go go',
